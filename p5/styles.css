@@ -1,0 +1,23 @@
+.container { 
+position: relative;
+display: table;
+height: 100%;
+position: relative;
+widows: 100%;
+padding: 100px;
+margin: 100px;
+
+&::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(FAUlogo.png);
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.25;
+    
+}
+}
